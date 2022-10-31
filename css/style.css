@@ -152,27 +152,31 @@ h1{
     color: rgb(19, 177, 201);
     font-size: 30px;
     text-size-adjust: 50px;
+    text-shadow: #eee;
+    text-shadow: 2px 2px blue;
 }
 /*mobile*/
 @media screen and (min-width: 350px) {
     .navbar{
-        width: 370px;
-        background-color: rgb(136, 0, 255);
+        width: 368px;
     }
     .h3{
-        left: 1%;
+        left: 0.0001%;
     }
     .zero{
         flex-wrap: wrap;
         position: relative;
         left: 1%;
     }
+    .h44{
+        left: 17%;
+    }
 }
 /*mobile*/
 @media screen and (min-width: 400px) {
     .navbar{
         width: 400px;
-        background-color: rgb(136, 0, 255);
+        
     }
     .h3{
         left: 3%;
@@ -182,12 +186,14 @@ h1{
         position: relative;
         left: 1%;
     }
+    .h44{
+        left: 17%;
+    }
 }
 /*ipad*/
 @media screen and (min-width: 700px) {
     .navbar{
         width: 755px;
-        background-color: rgb(136, 0, 255);
     }
     .h3{
         left: 48%;
@@ -205,7 +211,6 @@ h1{
 @media screen and (min-width: 1000px) {
     .navbar{
         width: 1015px;
-        background-color: rgb(136, 0, 255);
     }
     .h3{
         left: 59%;
@@ -220,7 +225,6 @@ h1{
 @media screen and (min-width: 1100px) {
     .navbar{
         width: 1290px;
-        background-color: aqua;
     }
     .h3{
         left: 55%;
@@ -233,7 +237,6 @@ h1{
 @media screen and (min-width: 1200px) {
     .navbar{
         width: 1510px;
-        background-color: red;
     }
     .h3{
         left: 70%;
@@ -250,7 +253,7 @@ h1{
     position: relative;
     left: 50%;
     background-color: chocolate;
-    padding: 20px;
+    padding: 15px;
     border-radius: 25%;
     -webkit-border-radius: 25%;
     -moz-border-radius: 25%;
