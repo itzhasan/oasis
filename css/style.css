@@ -131,6 +131,9 @@ body{
         margin: 0 5px 0 5px;
         display: flex;
         flex-direction:row;
+        position: sticky;
+        top: 0;
+        z-index: 1;
 }
 .h3{
     display: flex;
@@ -146,7 +149,7 @@ h1{
     position: relative;
     left: 10%;
     top: 15%;
-    color: aliceblue;
+    color: rgb(19, 177, 201);
     font-size: 30px;
     text-size-adjust: 50px;
 }
@@ -187,12 +190,15 @@ h1{
         background-color: rgb(136, 0, 255);
     }
     .h3{
-        left: 23%;
+        left: 48%;
     }
     .zero{
         flex-wrap: wrap;
         position: relative;
         left: 1%;
+    }
+    .h44{
+        left: 17%;
     }
 }
 /*ipad pro*/
@@ -202,7 +208,7 @@ h1{
         background-color: rgb(136, 0, 255);
     }
     .h3{
-        left: 43%;
+        left: 59%;
     }
     .zero{
         flex-wrap: wrap;
@@ -219,6 +225,9 @@ h1{
     .h3{
         left: 55%;
     }
+    .h44{
+        left: 17%;
+    }
 }
 /*large screen laptop*/
 @media screen and (min-width: 1200px) {
@@ -227,6 +236,25 @@ h1{
         background-color: red;
     }
     .h3{
-        left: 59%;
+        left: 70%;
     }
+    .h44{
+        left: 17%;
+    }
+}
+.h44{
+    color: rgb(247, 244, 244); 
+    position: relative;
+}
+.lang{
+    position: relative;
+    left: 50%;
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+    box-shadow: 4px 4px ;
 }
